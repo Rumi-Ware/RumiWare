@@ -123,3 +123,9 @@ footer a{color:var(--sec);text-decoration:none}footer a:hover{color:var(--link)}
 .jump{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.5rem}
 .jump a{padding:.4rem 1rem;border:1px solid var(--line);border-radius:999px;background:var(--card);text-decoration:none;font-weight:600;font-size:.9rem}
 .jump a:hover{border-color:var(--dome)}
+/* ---- FAQ accordion (service pages) ---- */
+details{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:1rem 1.3rem;margin:.7rem 0}
+details[open]{border-color:var(--dome)}
+summary{cursor:pointer;font:600 1.05rem var(--fh);color:var(--head)}
+details p{margin-top:.7rem}
+.narrow{max-width:820px}
