@@ -53,6 +53,16 @@
   if (ck && !store('rw-cookie')) ck.classList.add('show');
   d.querySelectorAll('[data-cookie]').forEach(function (b) { b.onclick = function () { store('rw-cookie', b.dataset.cookie); ck.classList.remove('show'); }; });
 
+
+  // Portfolio filters
+  var fb = d.querySelectorAll('.filters button'), pj = d.querySelectorAll('.proj');
+  fb.forEach(function (b) {
+    b.onclick = function () {
+      fb.forEach(function (x) { x.setAttribute('aria-pressed', x === b); });
+      pj.forEach(function (p) { p.hidden = !(b.dataset.filter === 'all' || p.dataset.cat === b.dataset.filter); });
+    };
+  });
+
   // Footer year
   var y = d.getElementById('year'); if (y) y.textContent = new Date().getFullYear();
 })();
