@@ -138,6 +138,7 @@ details[open]{border-color:var(--dome)}
 summary{cursor:pointer;font:600 1.05rem var(--fh);color:var(--head)}
 details p{margin-top:.7rem}
 .narrow{max-width:820px}
+
 /* ---- portfolio filters ---- */
 .filters{display:flex;flex-wrap:wrap;gap:.6rem;margin-bottom:2rem}
 .filters button{padding:.5rem 1.2rem;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--text);font:600 .95rem var(--fb);cursor:pointer}
