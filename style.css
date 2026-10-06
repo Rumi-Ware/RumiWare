@@ -1,5 +1,9 @@
 /* Rumiware design system - style.css. Dark mode is default; light via [data-theme="light"] */
+<<<<<<< HEAD
 :root{--bg:#0B1E2D;--card:#102A43;--alt:#0F2638;--text:#E6E0D0;--head:#F4EEDD;--sec:#B4C2CE;--line:#234560;
+=======
+:root{--bg:#0B1E2D;--card:#102A43;--alt:#0F2638;--text:#E6E0D0;--head:#F4EEDD;--sec:#B4C2CE;--line:#234560;--dome:#16A6A3;
+>>>>>>> temp-save
 --dome:#16A6A3;--teal:#076969;--btn:#1FB5B1;--btn-h:#3FD0CB;--btn-t:#0B1E2D;--link:#3FD0CB;--gold:#D9B65C;*/
 .eye { animation: blink 4s infinite; transform-origin: center; transform-box: fill-box; }
 @keyframes blink { 0%, 94%, 100% { transform: scaleY(1); } 97% { transform: scaleY(0.1); } }
@@ -137,6 +141,7 @@ details{background:var(--card);border:1px solid var(--line);border-radius:var(--
 details[open]{border-color:var(--dome)}
 summary{cursor:pointer;font:600 1.05rem var(--fh);color:var(--head)}
 details p{margin-top:.7rem}
+.narrow{max-width:820px}
 .narrow{max-width:820px}
 
 /* ---- portfolio filters ---- */
