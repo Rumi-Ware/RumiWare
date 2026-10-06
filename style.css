@@ -1,6 +1,6 @@
 /* Rumiware design system - style.css. Dark mode is default; light via [data-theme="light"] */
 :root{--bg:#0B1E2D;--card:#102A43;--alt:#0F2638;--text:#E6E0D0;--head:#F4EEDD;--sec:#B4C2CE;--line:#234560;
-/*--dome:#16A6A3;--teal:#076969;--btn:#1FB5B1;--btn-h:#3FD0CB;--btn-t:#0B1E2D;--link:#3FD0CB;--gold:#D9B65C;*/
+--dome:#16A6A3;--teal:#076969;--btn:#1FB5B1;--btn-h:#3FD0CB;--btn-t:#0B1E2D;--link:#3FD0CB;--gold:#D9B65C;*/
 .eye { animation: blink 4s infinite; transform-origin: center; transform-box: fill-box; }
 @keyframes blink { 0%, 94%, 100% { transform: scaleY(1); } 97% { transform: scaleY(0.1); } }
 --fh:'Bricolage Grotesque',system-ui,sans-serif;--fb:'DM Sans',system-ui,sans-serif;
