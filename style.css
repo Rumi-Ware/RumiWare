@@ -71,6 +71,8 @@ nav.open{display:block}nav ul{flex-direction:column;align-items:flex-start;gap:1
 .tech span{padding:.5rem 1.1rem;border:1px solid var(--line);border-radius:999px;background:var(--card);font-weight:600;font-size:.9rem;color:var(--head)}
 /* team */
 .avatar{width:92px;height:92px;border-radius:50%;display:grid;place-items:center;font:800 1.8rem var(--fh);color:#fff;background:linear-gradient(135deg,var(--teal),var(--dome));border:3px solid var(--gold);margin-bottom:.6rem}
+.avatar-photo{width:92px;height:92px;border-radius:50%;overflow:hidden;border:3px solid var(--gold);margin-bottom:.6rem;background:var(--card);}
+.avatar-photo img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block;}
 /* slider */
 .slider{max-width:760px;margin-inline:auto;text-align:center}
 .slide{display:none}.slide.on{display:block;animation:fade .5s}
