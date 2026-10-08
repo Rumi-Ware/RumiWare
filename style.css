@@ -181,3 +181,5 @@ details p{margin-top:.7rem}
 .prose ul{margin:.9rem 0 .9rem 1.2rem;color:var(--text)}.prose li{margin:.4rem 0}
 .prose blockquote{border-left:4px solid var(--gold);padding:.4rem 1.2rem;margin:1.5rem 0;font:600 1.2rem/1.5 var(--fh);color:var(--head)}
 .share{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:2rem;padding-top:1.2rem;border-top:1px solid var(--line)}
+.location-note {margin: 20px 0 25px;padding: 18px 22px;border-radius: 12px;background: rgba(22, 166, 163, 0.12);border: 1px solid rgba(22, 166, 163, 0.35);color: var(--text);font-size: 1.1rem;line-height: 1.6;}
+.location-note strong {font-weight: 700;}
